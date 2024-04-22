@@ -1,0 +1,58 @@
+doctype html 
+html 
+    head 
+        title Indian Dance School
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/dance logo.png")
+                    a(href = "/") Indian Dance School
+                li #[a(href = "/") Home]
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Class Info]
+                li #[a(href = "/") Contact Us]
+        section#introSection 
+            div Welcome to India's best Dance Academy.
+            div.small Dance India Dance!
+        section#mission 
+            h2 What We Intend?
+            div.card
+                h3 Perfection in Dance!
+                div.card-box 
+                    div.card-img 
+                        img(src=("/static/d1.png"))
+                    div.card-content 
+                        p The best Dance School you would ever find!
+            div.card
+                h3 Artistic Vision!
+                div.card-box 
+                    div.card-img 
+                        img(src=("/static/d2.png"))
+                    div.card-content 
+                        p The best Dance School you would ever find!
+            div.card
+                h3 Community Engagement!
+                div.card-box 
+                    div.card-img 
+                        img(src=("/static/d3.png"))
+                    div.card-content 
+                        p The best Dance School you would ever find!
+
+        section#sponsorsSection 
+            h3 Our Proud Sponsors
+            div#sponsors    
+                img(src="/static/sp1.png", alt="sponsorImg" class="sponsorImg")
+                img(src="/static/sp2.png", alt="sponsorImg" class="sponsorImg")
+                img(src="/static/sp3.png", alt="sponsorImg" class="sponsorImg")
+                img(src="/static/sp4.png", alt="sponsorImg" class="sponsorImg")
+
+
+        footer#footer 
+            | Copyright 2023 Indian Dancer School | All Rights Reserved
+        script 
+            include ../static/script.js
+
